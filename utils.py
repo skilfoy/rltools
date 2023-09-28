@@ -272,7 +272,7 @@ def create_gif(
 
     if display_gif:
         with open(f'{folder}/{filename}.gif','rb') as f:
-            display(Image(data=f.read(), format='gif'))
+            display(Image(data=f.read(), format='png'))
 
     #------------------------------------------------------------
     # Unset the seed
